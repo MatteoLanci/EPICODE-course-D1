@@ -100,10 +100,18 @@ h3 {
   color: #eff6e0;
 }
 
-#github {
+#github a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: .5rem;
+}
+
+#linkedin a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
 }
 
 #presentation {
@@ -123,9 +131,14 @@ h3 {
   gap: 2rem;
 }
 
-footer {
-  position: static;
-  bottom: 0;
-  left: 0;
-  margin-top: 4rem;
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 10rem;
+}
+
+#copyright p{
+  font-size: .7rem;
 }
